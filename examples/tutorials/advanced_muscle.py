@@ -4,6 +4,7 @@ import genesis as gs
 
 ########################## init ##########################
 gs.init(seed=0, precision="32", logging_level="debug")
+# gs.init(backend=gs.cpu)
 
 ########################## create a scene ##########################
 dt = 5e-4
